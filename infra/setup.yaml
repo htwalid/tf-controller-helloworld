@@ -14,8 +14,8 @@ kind: Terraform
 metadata:
   name: helloworld-tf
 spec:
-  path: ./terraform
-  approvePlan: "auto"
+  path: ../terraform
+  approvePlan: "plan-main-0184969bf0"
   interval: 1m
   sourceRef:
     kind: GitRepository
